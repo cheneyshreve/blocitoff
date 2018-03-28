@@ -1,24 +1,13 @@
-# README
+## Blocitoff
+Blocitoff is an application that allows users to create self-destructing to-do lists.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Key features
+- Users can create a free account, sign-in, and make to-do lists
+- Profile page displays summary of activities and age of to-do lists
+- After 7 days, to-do list is automatically deleted
 
-Things you may want to cover:
+## Configuration
+- To be added, app is currently under development.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Setup and Installation
+- To be added, app is currently under development.
