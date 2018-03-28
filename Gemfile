@@ -7,8 +7,6 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -29,8 +27,6 @@ gem 'thor', '0.19.1'
 gem 'figaro'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
 gem 'devise'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -46,13 +42,8 @@ group :production do
   gem 'rails_12factor'
 end
 
-group :development do
-  # Use sqlite3 as the development database for Active Record
-  gem 'sqlite3'
-  gem 'web-console', '~> 2.0'
-end
-
 group :development, :test do
+  gem 'sqlite3'
   gem 'rspec-rails', '~> 3.7'
   gem 'rails-controller-testing'
   gem 'shoulda'
