@@ -6,8 +6,28 @@ Blocitoff is an application that allows users to create self-destructing to-do l
 - Profile page displays summary of activities and age of to-do lists
 - After 7 days, to-do list is automatically deleted
 
-## Configuration
-- To be added, app is currently under development.
+## Installation
+- Clone the github repository
+- To implement the automatic delete feature locally, install the whenever gem, then utilize the rake task in /lib/todo.rake
+- For Heroku, install the scheduler add-on and follows set-up instructions
 
-## Setup and Installation
-- To be added, app is currently under development.
+## Setup and Configuration
+Languages and frameworks:
+- Ruby 2.5
+- Ruby-on-rails 5.1.5
+- Bootstrap-SASS
+
+Databases: SQLite (Test, Development) Postgres SQL (production)
+
+Running locally:
+- clone the repository
+
+```
+$ bundle install
+$ rake db:create
+$ rake db:migrate
+$ rails s
+```
+navigate to localhost in your web browser
+
+See the live version on [Heroku](https://morning-thicket-71470.herokuapp.com/)
