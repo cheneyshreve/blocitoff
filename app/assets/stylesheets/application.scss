@@ -16,16 +16,8 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
-a.navbar-link{
+.container {
   font-size: 2rem;
-}
-
-a.nav-tabs {
-  font-size: 2rem;
-}
-
-a {
-  font-size: 1.75rem;
 }
 
 .jumbotron {
@@ -40,4 +32,8 @@ a {
   text-shadow: 2px 2px 2px green;
   font-weight: bold;
   z-index: 2;
+}
+
+p {
+  margin-top: 10px;
 }
