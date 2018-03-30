@@ -15,3 +15,29 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+a.navbar-link{
+  font-size: 2rem;
+}
+
+a.nav-tabs {
+  font-size: 2rem;
+}
+
+a {
+  font-size: 1.75rem;
+}
+
+.jumbotron {
+  background-image: url(/assets/emma-matthews-558684-unsplash.jpg);
+  background-size: cover;
+  background-color: rgba(238, 238, 238, 0.85);
+  z-index: 1;
+}
+
+.jumbotron h2, h2.cover-heading {
+  color: white;
+  text-shadow: 2px 2px 2px green;
+  font-weight: bold;
+  z-index: 2;
+}
