@@ -1,12 +1,12 @@
 <div class="row">
   <div class="col-md-8">
    <h2>Profile | My To-Do's</h2>
-      <h3><%= render partial: 'items/item', remote: true, locals: { items: @items, user: @user }%></h3>
+      <h3><%= render partial: 'items/item',locals: { items: @items, user: @user }%></h3>
  </div>
 </div>
 
 <div class="row">
   <div class="col-md-8">
-    <%= render partial: 'items/form', remote: true, locals:{ item: @item, user: @user } %>
+    <%= render partial: 'items/form', locals:{ item: @item, user: @user } %>
   </div>
 </div>
