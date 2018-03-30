@@ -15,7 +15,12 @@ class ItemsController < ApplicationController
 
   def destroy
     @item = current_user.items.find(params[:id])
-    @item.destroy
+
+    if @item.destroy
+      flash[:notice] = "To-do Complete!"
+    else
+      flash[:error] = "Error removing item, please try again."
+    end
 
     respond_to do |format|
       format.html
