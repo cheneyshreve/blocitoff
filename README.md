@@ -1,5 +1,5 @@
-## Blocitoff
-Blocitoff is an application that allows users to create self-destructing to-do lists.
+## To-Do Manager
+To-Do Manager is an application that allows users to create self-destructing to-do lists.
 
 ## Key features
 - Users can create a free account, sign-in, and make to-do lists
